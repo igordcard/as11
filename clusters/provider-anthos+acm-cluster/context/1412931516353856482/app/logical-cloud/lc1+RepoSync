@@ -1,0 +1,13 @@
+ApiVersion: configsync.gke.io/v1beta1
+Kind: RepoSync
+MetaData:
+  Name: repo-sync-lc1
+  Namespace: privileged-lc-ns
+Specification:
+  Git:
+    Auth: none
+    Branch: main
+    Dir: /namespaces/privileged-lc-ns/provider-anthos+acm-cluster
+    NoSSLVerify: false
+    Repo: https://github.com/igordcard/as11.git
+    Revision: HEAD
