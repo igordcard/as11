@@ -1,0 +1,1 @@
+{"apiVersion":"configsync.gke.io/v1beta1","kind":"RepoSync","metadata":{"name":"repo-sync-lc1","namespace":"privileged-lc-ns"},"spec":{"git":{"repo":"https://github.com/igordcard/as11.git","revision":"HEAD","branch":"main","dir":"/namespaces/privileged-lc-ns/provider-anthos+acm-cluster","auth":"none","noSSLVerify":false}}}
