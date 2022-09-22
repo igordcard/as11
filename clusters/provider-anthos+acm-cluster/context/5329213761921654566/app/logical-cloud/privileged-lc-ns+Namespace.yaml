@@ -1,0 +1,1 @@
+{"apiVersion":"v1","kind":"Namespace","metadata":{"labels":{"emco/deployment-id":"5329213761921654566-logical-cloud"},"name":"privileged-lc-ns"}}
