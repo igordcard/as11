@@ -1,0 +1,1 @@
+{"apiVersion":"rbac.authorization.k8s.io/v1","kind":"ClusterRole","metadata":{"labels":{"emco/deployment-id":"5329213761921654566-logical-cloud"},"name":"lc1-clusterRole2"},"rules":[{"apiGroups":["*"],"resources":["*"],"verbs":["*"]}]}
